@@ -1,7 +1,8 @@
 # World-clock
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This here is an attempt to learn me an ember for great good. I'm following the
+[MDN tutorial](https://developer.mozilla.org/en-US/Apps/Quickstart/Application_setup)--hopefully, through the power of literacy vested in me, I'll
+make it through more or less unscathed.
 
 ## Prerequisites
 
