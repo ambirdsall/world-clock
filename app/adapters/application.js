@@ -1,4 +1,6 @@
-import DS from 'ember-data';
+// unless it's from 'ember-localforage-adapter/addon/adapters/localforage'
+import LFAdapter from 'ember-localforage-adapter/adapters/localforage';
 
-export default DS.RESTAdapter.extend({
+export default LFAdapter.extend({
+  namespace: 'WorldTimeZones'
 });
