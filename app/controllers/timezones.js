@@ -5,7 +5,7 @@ export default Ember.Controller.extend({
   init: function() {
     var timezones = [];
     for (var i in moment.tz._zones) {
-      var currentTimezone = moment.tz(i)._z;
+      var currentTimezone = moment.tz.zone(i);
 
       timezones.push({
         name:   currentTimezone.name,
