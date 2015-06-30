@@ -1,1 +1,7 @@
 <h2>Local time: {{localTime}}</h2>
+
+<ul>
+  {{#each model as |clock|}}
+    <li>{{clock.name}}: <strong>{{clock.time}}</strong></li>
+  {{/each}}
+</ul>
